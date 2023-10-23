@@ -1,0 +1,15 @@
+[package]
+name = "credentialhelper"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+serde.version = "1.0"
+serde.features = [
+  "derive"
+]
+
+serde_json.version = "1.0"

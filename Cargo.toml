@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = [
+  "credentialhelper",
+  "credentialhelpercache",
+]
+
+[workspace.package]
+edition = "2021"
+# LINT.IfChange(rust_version)
+rust-version = "1.73.0"
+# LINT.ThenChange(//WORKSPACE:rust_version)
+version = "1.0.0"
+license = "Apache-2.0"
+authors = [
+    "EngFlow",
+]

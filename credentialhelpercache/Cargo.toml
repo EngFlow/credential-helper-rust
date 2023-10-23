@@ -1,0 +1,16 @@
+[package]
+name = "credentialhelpercache"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+credentialhelper.version = "1.0.0"
+credentialhelper.path = "../credentialhelper"
+
+moka.version = "0.12"
+moka.features = [
+    "sync",
+]
