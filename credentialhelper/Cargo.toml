@@ -1,6 +1,10 @@
 [package]
 name = "credentialhelper"
 version.workspace = true
+description = "Credential Helper library for Rust"
+documentation = "https://docs.rs/credentialhelper"
+homepage.workspace = true
+repository.workspace = true
 edition.workspace = true
 rust-version.workspace = true
 authors.workspace = true

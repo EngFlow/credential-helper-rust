@@ -6,6 +6,8 @@ members = [
 ]
 
 [workspace.package]
+homepage = "https://github.com/EngFlow/credential-helper-rust"
+repository = "https://github.com/EngFlow/credential-helper-rust"
 edition = "2021"
 # LINT.IfChange(rust_version)
 rust-version = "1.73.0"
