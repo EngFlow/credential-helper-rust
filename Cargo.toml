@@ -10,10 +10,10 @@ homepage = "https://github.com/EngFlow/credential-helper-rust"
 repository = "https://github.com/EngFlow/credential-helper-rust"
 # LINT.IfChange(rust_edition)
 edition = "2021"
-# LINT.ThenChange(//WORKSPACE:rust_edition)
+# LINT.ThenChange(//MODULE.bazel:rust_edition)
 # LINT.IfChange(rust_version)
 rust-version = "1.73.0"
-# LINT.ThenChange(//WORKSPACE:rust_version)
+# LINT.ThenChange(//MODULE.bazel:rust_version)
 version = "1.0.0"
 license = "Apache-2.0"
 authors = [
