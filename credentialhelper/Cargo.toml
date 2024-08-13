@@ -1,14 +1,37 @@
 [package]
 name = "credentialhelper"
-version.workspace = true
 description = "Credential Helper library for Rust"
 documentation = "https://docs.rs/credentialhelper"
-homepage.workspace = true
-repository.workspace = true
+
+# LINT.IfChange(version)
+version = "1.0.0"
+# LINT.ThenChange(
+#   //third_party/engflow-credential-helper-rust/Cargo.toml:version)
+
+# LINT.IfChange(license)
+license = "Apache-2.0"
+# LINT.ThenChange(
+#   //third_party/engflow-credential-helper-rust/Cargo.toml:license)
+
+# LINT.IfChange(homepage)
+homepage = "https://github.com/EngFlow/credential-helper-rust"
+# LINT.ThenChange(
+#   //third_party/engflow-credential-helper-rust/Cargo.toml:homepage)
+
+# LINT.IfChange(repository)
+repository = "https://github.com/EngFlow/credential-helper-rust"
+# LINT.ThenChange(
+#   //third_party/engflow-credential-helper-rust/Cargo.toml:repository)
+
+# LINT.IfChange(authors)
+authors = [
+    "EngFlow",
+]
+# LINT.ThenChange(
+#   //third_party/engflow-credential-helper-rust/Cargo.toml:authors)
+
 edition.workspace = true
 rust-version.workspace = true
-authors.workspace = true
-license.workspace = true
 
 [dependencies]
 serde.version = "1.0"
