@@ -1,10 +1,8 @@
 [workspace]
 resolver = "2"
 members = [
-  # LINT.IfChange(members)
   "credentialhelper",
   "credentialhelpercache",
-  # LINT.ThenChange(//Cargo.toml:engflow-credential-helper-rust)
 ]
 
 [workspace.package]
@@ -12,39 +10,34 @@ members = [
 # LINT.IfChange(homepage)
 homepage = "https://github.com/EngFlow/credential-helper-rust"
 # LINT.ThenChange(
-#   //third_party/engflow-credential-helper-rust/credentialhelper/Cargo.toml:homepage,
-#   //third_party/engflow-credential-helper-rust/credentialhelpercache/Cargo.toml:homepage)
+#   //first_party/engflow-credential-helper-rust/credentialhelper/Cargo.toml:homepage,
+#   //first_party/engflow-credential-helper-rust/credentialhelpercache/Cargo.toml:homepage)
 
 # LINT.IfChange(repository)
 repository = "https://github.com/EngFlow/credential-helper-rust"
 # LINT.ThenChange(
-#   //third_party/engflow-credential-helper-rust/credentialhelper/Cargo.toml:repository,
-#   //third_party/engflow-credential-helper-rust/credentialhelpercache/Cargo.toml:repository)
+#   //first_party/engflow-credential-helper-rust/credentialhelper/Cargo.toml:repository,
+#   //first_party/engflow-credential-helper-rust/credentialhelpercache/Cargo.toml:repository)
 
 # LINT.IfChange(authors)
 authors = [
     "EngFlow",
 ]
 # LINT.ThenChange(
-#   //third_party/engflow-credential-helper-rust/credentialhelper/Cargo.toml:authors,
-#   //third_party/engflow-credential-helper-rust/credentialhelpercache/Cargo.toml:authors)
+#   //first_party/engflow-credential-helper-rust/credentialhelper/Cargo.toml:authors,
+#   //first_party/engflow-credential-helper-rust/credentialhelpercache/Cargo.toml:authors)
 
 # LINT.IfChange(version)
 version = "1.0.0"
 # LINT.ThenChange(
-#   //third_party/engflow-credential-helper-rust/credentialhelper/Cargo.toml:version,
-#   //third_party/engflow-credential-helper-rust/credentialhelpercache/Cargo.toml:version)
+#   //first_party/engflow-credential-helper-rust/credentialhelper/Cargo.toml:version,
+#   //first_party/engflow-credential-helper-rust/credentialhelpercache/Cargo.toml:version)
 
 # LINT.IfChange(license)
 license = "Apache-2.0"
 # LINT.ThenChange(
-#   //third_party/engflow-credential-helper-rust/credentialhelper/Cargo.toml:license,
-#   //third_party/engflow-credential-helper-rust/credentialhelpercache/Cargo.toml:license)
+#   //first_party/engflow-credential-helper-rust/credentialhelper/Cargo.toml:license,
+#   //first_party/engflow-credential-helper-rust/credentialhelpercache/Cargo.toml:license)
 
-# LINT.IfChange(rust_edition)
 edition = "2021"
-# LINT.ThenChange(//Cargo.toml:rust_edition)
-
-# LINT.IfChange(rust_version)
 rust-version = "1.79.0"
-# LINT.ThenChange(//Cargo.toml:rust_edition)

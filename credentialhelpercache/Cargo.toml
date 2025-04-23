@@ -6,29 +6,29 @@ documentation = "https://docs.rs/credentialhelper"
 # LINT.IfChange(version)
 version = "1.0.0"
 # LINT.ThenChange(
-#   //third_party/engflow-credential-helper-rust/Cargo.toml:version)
+#   //first_party/engflow-credential-helper-rust/Cargo.toml:version)
 
 # LINT.IfChange(license)
 license = "Apache-2.0"
 # LINT.ThenChange(
-#   //third_party/engflow-credential-helper-rust/Cargo.toml:license)
+#   //first_party/engflow-credential-helper-rust/Cargo.toml:license)
 
 # LINT.IfChange(homepage)
 homepage = "https://github.com/EngFlow/credential-helper-rust"
 # LINT.ThenChange(
-#   //third_party/engflow-credential-helper-rust/Cargo.toml:homepage)
+#   //first_party/engflow-credential-helper-rust/Cargo.toml:homepage)
 
 # LINT.IfChange(repository)
 repository = "https://github.com/EngFlow/credential-helper-rust"
 # LINT.ThenChange(
-#   //third_party/engflow-credential-helper-rust/Cargo.toml:repository)
+#   //first_party/engflow-credential-helper-rust/Cargo.toml:repository)
 
 # LINT.IfChange(authors)
 authors = [
     "EngFlow",
 ]
 # LINT.ThenChange(
-#   //third_party/engflow-credential-helper-rust/Cargo.toml:authors)
+#   //first_party/engflow-credential-helper-rust/Cargo.toml:authors)
 
 edition.workspace = true
 rust-version.workspace = true
